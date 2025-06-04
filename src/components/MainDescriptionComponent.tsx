@@ -17,8 +17,8 @@ const MainDescriptionComponent = (props: IMainDescProps) => {
         <p className="text-white absolute text-xl top-44 left-9">Name: {props.pokeName}</p>
         <p className="text-white absolute text-xl top-52 left-9">Element: {props.pokeType}</p>
 
-        <Image width={30} height={30} id="RandomBtn" className="absolute bg-white rounded-md w-[45px] h-[45px] top-22 left-56" src="/reload.png" alt="Random pokemon button."/>
-        <Image width={30} height={30} id="ShinyMode" className="absolute w-[45px] h-[40px] top-36 left-56" src="/brightness.png" alt="Change Icon for the img."/>
+        <Image width={30} height={30} id="RandomBtn" className="absolute bg-white rounded-md w-[45px] h-[45px] top-22 left-56 hover:cursor-pointer" src="/reload.png" alt="Random pokemon button."/>
+        <Image width={30} height={30} id="ShinyMode" className="absolute w-[45px] h-[40px] top-36 left-56 hover:cursor-pointer" src="/brightness.png" alt="Change Icon for the img."/>
       </div> 
     </div>  
                 

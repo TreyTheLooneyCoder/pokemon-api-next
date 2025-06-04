@@ -3,13 +3,13 @@ import { createContext, useContext, useState } from "react";
 
 interface Context{
     pokeInput: string
-    setPokeInput: (Pokemon: string) => void;
+    setPokeInput: (pokemon: string) => void;
 
 }
 
 const AppContext = createContext<Context>({
     pokeInput: '',
-    setPokeInput: (Pokemon: string) => '',
+    setPokeInput: (pokemon: string) => '',
     
 })
 
